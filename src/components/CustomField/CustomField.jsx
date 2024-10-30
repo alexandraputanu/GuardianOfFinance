@@ -16,7 +16,7 @@ const CustomField = ({ type, name, placeholder }) => {
                     type={showPassword ? 'text' : type}
                     name={name}
                     placeholder={placeholder}
-                    autoComplete="off" // Aici a fost modificat
+                    autoComplete="off" 
                 />
                 {type === 'password' ? (
                     <svg className={`${style.icon} ${style.iconPassword}`} onClick={() => setShowPassword(!showPassword)}>
